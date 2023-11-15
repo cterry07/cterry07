@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 25px 25px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #000000;
+        }
+    </style>
     <head>
-        <title>GOS: Challenges</title>
-    </head>
-    <body>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-    </body>
-</html>
+      <style>
+        h1 {text-align: center;}
+      </style>
+      <title> GOS: Challenges</title>
+      <body>
+        <ul>
+            <li><a class="active" href="page_home.html">Home</a></li>
+            <li><a href="page_encounters.html">Encounters</a></li>
+            <li><a href="page_triumphs.html">Triumphs</a></li>
+            <li><a href="page_challenges.html">Challenges</a></li>
+        </ul>
