@@ -24,3 +24,12 @@ ul {
   li a:hover {
     background-color: #000000;
   }
+
+  body {
+    background-color: rgb(24, 171, 122)
+  }
+
+  h2 {
+    background-color: black;
+    color: white;
+  }
